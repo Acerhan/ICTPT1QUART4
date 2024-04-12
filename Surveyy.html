@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title> Survey </title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body><h1>SURVEY</h1>
+    <form>
+
+       <h3> Full name: <input type="text" id="fullname">
+        <br><br>
+       Section: <input type="text" id="section"> <br><br>
+       Lowest Suject: <input type="grade" id="animal"> <br><br>
+        Highest Suject: <input type="text" id="subjec"> <br><br>
+        Favorite subject: <input type="text" id="sub"> <br><br>
+        <input type="submit" value="submit" onclick="sun()"> </h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Prepared by Ace Jana T. Abalos</h2>
+    </form>
+    <script>
+        function sun()
+        { 
+            var fullname=document.getElementById("fullname").value;
+            var fullname=document.getElementById("animal").value;
+            var fullname=document.getElementById("subjec").value;
+            var fullname=document.getElementById("sub").value;
+                    
+
+            var name=localStorage.setItem("fullname", "fname");
+            var sec=localStorage.setItem("section", "sc");
+            var subjek=localStorage.setItem("animal", "an");
+            var subjhect=localStorage.setItem("subjec", "sb");
+            var fsubject=localStorage.setItem("sub", "subz");
+        
+                }
+       </script>
+       </body>
+       </html>
